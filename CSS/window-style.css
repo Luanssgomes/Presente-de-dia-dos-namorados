@@ -124,7 +124,7 @@ body{
 }
 
 .declaracao h2{
-    font-size: 34px;
+    font-size: 32px;
     font-weight: 600;
     align-self: flex-start;
     color: #FF007F;
@@ -133,7 +133,7 @@ body{
 .declaracao p {
     font-family: 'pacifico', cursive;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     color: rgb(0, 0, 0);
     text-align: justify;
 }
