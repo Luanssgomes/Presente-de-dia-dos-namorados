@@ -79,11 +79,11 @@ body{
 
 
  .carrossel {
-      width: 60%;
+      width: 80%;
       overflow: hidden;
       border-radius: 10px;
       box-shadow: 0 0 20px rgba(0,0,0,0.5);
-      margin: 30px auto 0 auto;
+      margin: 20px auto 0 auto;
       display: block;
     }
 
@@ -107,7 +107,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 20px;
     width: 80%;
     padding: 25px;
@@ -123,7 +123,7 @@ body{
 }
 
 .declaracao h2{
-    font-size: 32px;
+    font-size: 34px;
     font-weight: 600;
     align-self: flex-start;
     color: #FF007F;
@@ -131,7 +131,7 @@ body{
 
 .declaracao p {
     font-family: cursive;
-    font-size: 18px;
+    font-size: 20px;
     color: rgb(0, 0, 0);
     text-align: justify;
 }
