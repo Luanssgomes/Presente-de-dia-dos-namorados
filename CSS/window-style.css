@@ -110,7 +110,7 @@ body{
     flex-direction: column;
     margin-top: 30px;
     margin-bottom: 20px;
-    width: 80%;
+    width: 85%;
     padding: 20px;
     height: auto;
     background-color: hsl(0, 100%, 94%);
@@ -124,7 +124,7 @@ body{
 }
 
 .declaracao h2{
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 600;
     align-self: flex-start;
     color: #FF007F;
@@ -133,20 +133,25 @@ body{
 .declaracao p {
     font-family: 'pacifico', cursive;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 17px;
     color: rgb(0, 0, 0);
     text-align: justify;
 }
 
 .btn-te-amo{
     background-color: #FF007F;
+    color: #e7e7e7;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
     border: none;
     padding: 5px 10px;
     border-radius: 8px;
-    color: #e7e7e7;
     font-weight: 600;
     font-size: 20px;
-    font-family: cursive;
+    font-family: 'pacifico', cursive;
     margin-top: 20px;
+}
+
+button{
+    cursor: grabbing;
 }
 
