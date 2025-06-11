@@ -4,11 +4,11 @@ body{
     justify-content: center;
 }
 
-.nome-musica h6, p{
+.nome-musica h5, p{
     color: white;
 }
 .nome-musica p{
-    font-size: 15px;
+    font-size: 19px;
     font-weight: 800;
 }
 
@@ -37,7 +37,7 @@ body{
     background-color: #FF007F;
     margin-top: 10px;
     width: 80%;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
 }
 
@@ -79,11 +79,11 @@ body{
 
 
  .carrossel {
-      width: 80%;
+      width: 65%;
       overflow: hidden;
       border-radius: 10px;
       box-shadow: 0 0 20px rgba(0,0,0,0.5);
-      margin: 20px auto 0 auto;
+      margin: 30px auto 0 auto;
       display: block;
     }
 
@@ -107,7 +107,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
     width: 80%;
     padding: 25px;
@@ -130,8 +130,9 @@ body{
 }
 
 .declaracao p {
-    font-family: cursive;
-    font-size: 20px;
+    font-family: 'pacifico', cursive;
+    font-weight: 400;
+    font-size: 18px;
     color: rgb(0, 0, 0);
     text-align: justify;
 }
@@ -143,7 +144,7 @@ body{
     border-radius: 8px;
     color: #e7e7e7;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     font-family: cursive;
     margin-top: 20px;
 }
