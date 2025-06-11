@@ -4,13 +4,14 @@ body{
     justify-content: center;
 }
 
-.nome-musica h5, p{
+.nome-musica h5, 
+.nome-musica p,
+.buttons-music p{
     color: white;
-}
-.nome-musica p{
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 800;
 }
+
 
 .card{
     display: flex;
@@ -37,7 +38,7 @@ body{
     background-color: #FF007F;
     margin-top: 10px;
     width: 80%;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
 }
 
@@ -110,7 +111,7 @@ body{
     margin-top: 30px;
     margin-bottom: 20px;
     width: 80%;
-    padding: 25px;
+    padding: 30px;
     height: auto;
     background-color: hsl(0, 100%, 94%);
     border-radius: 10px;
