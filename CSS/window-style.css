@@ -1,0 +1,150 @@
+body{
+    background-color: #e7e7e7 ;
+    display: flex;
+    justify-content: center;
+}
+
+.nome-musica h6, p{
+    color: white;
+}
+.nome-musica p{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.img-nome{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-music{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.music{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF007F;
+    margin-top: 10px;
+    width: 70%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.music img{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.img-nome{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 5px;
+}
+
+.nome-musica{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.buttons-music{
+    width: 30%;
+    gap: 10px;
+}
+
+.buttons-music img{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 3px;
+    width: 20px;
+    height: auto;
+}
+
+.buttons-music img:hover{
+    cursor: pointer;
+}
+
+
+ .carrossel {
+      width: 50%;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      margin: 40px auto 0 auto;
+      display: block;
+    }
+
+    .slides {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .slides img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+
+
+.declaracao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 80%;
+    padding: 25px;
+    height: auto;
+    background-color: hsl(0, 100%, 94%);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+
+}
+
+.declaracao h2{
+    font-family: 'Pacifico', cursive;
+}
+
+.declaracao h2{
+    font-size: 27px;
+    font-weight: 600;
+    align-self: flex-start;
+    color: #FF007F;
+}
+
+.declaracao p {
+    font-family: cursive;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+.btn-te-amo{
+    background-color: #FF007F;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: #e7e7e7;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: cursive;
+    margin-top: 20px;
+}
+
